@@ -14,3 +14,5 @@ def number_spiral(row, column):
         
 
 assert number_spiral(2, 2) == 3, "Error en el caso de prueba"
+assert number_spiral(1, 1) == 1, "Error en el caso de prueba"
+assert number_spiral(3, 1) == 5, "Error en el caso de prueba"
